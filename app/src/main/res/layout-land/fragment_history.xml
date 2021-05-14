@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/theme_green"
+        android:orientation="horizontal">
+
+        <View style="@style/history_view" />
+
+        <TextView
+            style="@style/history_tv"
+            android:layout_weight="1.5"
+            android:text="评委" />
+
+        <View style="@style/history_view" />
+
+        <TextView
+            style="@style/history_tv"
+            android:layout_weight="1"
+            android:text="考生号" />
+
+        <View style="@style/history_view" />
+
+        <TextView
+            style="@style/history_tv"
+            android:layout_weight="2.5"
+            android:text="时间" />
+
+        <View style="@style/history_view" />
+
+        <TextView
+            style="@style/history_tv"
+            android:layout_weight="1"
+            android:text="总分" />
+
+        <View style="@style/history_view" />
+
+        <TextView
+            style="@style/history_tv"
+            android:layout_weight="2.2"
+            android:text="面试编号" />
+
+        <View style="@style/history_view" />
+
+        <TextView
+            style="@style/history_tv"
+            android:layout_weight="1"
+            android:text="详情" />
+
+        <View style="@style/history_view" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D4D4D4" />
+
+    <ListView
+        android:id="@+id/lv_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:dividerHeight="0dp"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+
+</LinearLayout>

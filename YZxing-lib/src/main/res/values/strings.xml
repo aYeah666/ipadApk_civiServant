@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">QrCode</string>
+    <string name="scanner_view_tip_text">请保持光线良好，距离合适，手持平稳</string>
+</resources>

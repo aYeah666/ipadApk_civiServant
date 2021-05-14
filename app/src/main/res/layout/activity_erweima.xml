@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_erweima"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <GridView
+        android:id="@+id/grid_view"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:columnWidth="100dp"
+        android:gravity="center"
+        android:numColumns="5"
+        android:verticalSpacing="25dp" />
+
+    <Button
+        android:id="@+id/btn_jumpto_maintab"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@mipmap/btn_wel_start"
+        android:gravity="center"
+        android:text="   确  定   "
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+</LinearLayout>

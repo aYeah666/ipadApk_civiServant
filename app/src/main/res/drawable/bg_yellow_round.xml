@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <!--边框颜色-->
+            <solid android:color="#ffffff" />
+            <!--边角弧度-->
+            <corners android:radius="8dip" />
+        </shape>
+    </item>
+    <!--边框宽度-->
+    <item
+        android:bottom="1px"
+        android:left="1px"
+        android:right="1px"
+        android:top="1px">
+        <shape>
+            <!--中心区域颜色-->
+            <solid android:color="#ffffff" />
+            <!--中心区域的边角弧度，通常与外边框弧度一致-->
+            <corners android:radius="8dip" />
+        </shape>
+    </item>
+</layer-list>

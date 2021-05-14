@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="480dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_yellow_round"
+        android:orientation="horizontal"
+        android:padding="30dp">
+
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="340dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_dia_finish_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="评委：展示"
+                android:textColor="#313030"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_dia_finish_xuhao"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="评委：展示"
+                android:textColor="#313030"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_dia_finish_score"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="评委：展示"
+                android:textColor="#313030"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View style="@style/history_view" />
+        <!--右侧布局-->
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/barcode_image"
+                android:layout_width="360dp"
+                android:layout_height="360dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn_dia_close"
+                android:layout_width="130dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="14dp"
+                android:background="@mipmap/btn_dialog_green"
+                android:text="关闭窗口"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

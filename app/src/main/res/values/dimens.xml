@@ -1,0 +1,35 @@
+<resources>
+    <!-- 字体大小-->
+    <dimen name="dimen_6dp">6dp</dimen>
+    <dimen name="padding_3">3dp</dimen>
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="padding_10">10dip</dimen>
+    <dimen name="padding_12">12dip</dimen>
+    <dimen name="padding_14">14dip</dimen>
+    <dimen name="padding_20">20dip</dimen>
+    <dimen name="dividing_0.5">0.5dip</dimen>
+    <dimen name="size_80">80dp</dimen>
+    <dimen name="dimen_8dp">8dip</dimen>
+    <dimen name="dimen_10dp">10dip</dimen>
+    <dimen name="dimen_12dp">12dip</dimen>
+    <dimen name="dimen_14dp">14dp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_11">11sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_17">17sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_19">19sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <!--首页maintab  字体的大小-->
+    <dimen name="maintab_text_size">12sp</dimen>
+    <!--首页maintab  图标的大小-->
+    <dimen name="maintab_icon_height">22.5dp</dimen>
+    <dimen name="maintab_icon_width">20dp</dimen>
+
+    <dimen name="status_height">20dp</dimen>
+    <dimen name="maxlong_dis">30dp</dimen>
+</resources>
